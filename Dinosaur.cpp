@@ -2,7 +2,7 @@
 
 Dinosaur::Dinosaur()
 {
-	posX = 0;
+	posX = 45;
 	posY = GROUND;
 	status = 0;
 }

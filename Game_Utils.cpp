@@ -84,8 +84,44 @@ void update_time(int& time)
 	time += 1;
 
 	if (time % 10 == 0) {
-		time_run += 1;
+		score += 1;
 	}
 	if (time >= 10) time = 1;
+}
 
+void reset_score()
+{
+	score = 0;
+}
+
+void Draw_Score(TTF_Font* gFont,
+	SDL_Renderer* gRenderer)
+{
+	BaseObject gFont_Score_Texture;
+
+	gFont_Score_Texture.LoadFromRenderedText(to_string(score), gFont, textColor, gRenderer);
+	gFont_Score_Texture.Render(PosX_Your_score+130, PosY_Your_score, gRenderer);
+}
+
+void Draw_Hight_Score(TTF_Font* gFont,
+	SDL_Renderer* gRenderer)
+{
+	BaseObject gFont_Hight_Score_Texture;
+
+	gFont_Hight_Score_Texture.LoadFromRenderedText(to_string(hight_score_n), gFont, textColor, gRenderer);
+	gFont_Hight_Score_Texture.Render(PosX_Hight_score+130, PosY_Hight_score, gRenderer);
+}
+
+void Update_hight_score()
+{
+	string hight_score_s;
+	ifstream input("C:\\Users\\FPTShop\\Desktop\\Studio\\DEMO 2\\score\\score.txt");
+	input >> hight_score_s;
+	int hight_score = atoi(hight_score_s.c_str());
+	hight_score_n = hight_score;
+	if (score >= hight_score)
+	{
+		ofstream output("C:\\Users\\FPTShop\\Desktop\\Studio\\DEMO 2\\score\\score.txt");
+		output << to_string(score);
+	}
 }

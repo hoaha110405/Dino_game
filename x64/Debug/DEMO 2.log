@@ -1,14 +1,7 @@
 ﻿  main.cpp
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(61,110): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(61,96): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(119,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(137,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(155,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(257,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(259,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(322,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(345,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(348,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(351,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(354,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(64,110): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(285,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(287,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(383,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\FPTShop\Desktop\Studio\DEMO 2\main.cpp(548,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   DEMO 2.vcxproj -> C:\Users\FPTShop\Desktop\Studio\DEMO 2\x64\Debug\DEMO 2.exe

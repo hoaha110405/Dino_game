@@ -2,7 +2,7 @@
 
 Enemy::Enemy()
 {
-	posX = rand()%(800+1) + 800;
+	posX = rand()%(SCREEN_WIDTH +1) + SCREEN_WIDTH;
 	posY = GROUND;
 	random_posY = rand() % (GROUND-300) + 300;
 	random_type_enemy = rand() % 5 + 1;
@@ -33,7 +33,7 @@ void Enemy::Generate_Enemy(SDL_Renderer* gRenderer,
 {
 	if (random_type_enemy == ENEMY_1) {
 		if (posX + 45 <= 0) {
-			posX = rand() % (800 + 1) + 800;
+			posX = rand() % (SCREEN_WIDTH + 1) + SCREEN_WIDTH;
 			random_type_enemy = Random_Enemy();
 		}
 		else {
@@ -44,7 +44,7 @@ void Enemy::Generate_Enemy(SDL_Renderer* gRenderer,
 	else if (random_type_enemy == ENEMY_2)
 	{
 		if (posX + 45 <= 0) {
-			posX = rand() % (800 + 1) + 800;
+			posX = rand() % (SCREEN_WIDTH + 1) + SCREEN_WIDTH;
 			posY = GROUND;
 			random_type_enemy = Random_Enemy();
 		}
@@ -57,7 +57,7 @@ void Enemy::Generate_Enemy(SDL_Renderer* gRenderer,
 	else if (random_type_enemy == ENEMY_3)
 	{
 		if (posX + 45 <= 0) {
-			posX = rand() % (800 + 1) + 800;
+			posX = rand() % (SCREEN_WIDTH + 1) + SCREEN_WIDTH;
 			random_type_enemy = Random_Enemy();
 		}
 		else {
@@ -68,7 +68,7 @@ void Enemy::Generate_Enemy(SDL_Renderer* gRenderer,
 	else if (random_type_enemy == ENEMY_4)
 	{
 		if (posX + 45 <= 0) {
-			posX = rand() % (800 + 1) + 800;
+			posX = rand() % (SCREEN_WIDTH + 1) + SCREEN_WIDTH;
 			random_type_enemy = Random_Enemy();
 		}
 		else {
@@ -79,7 +79,7 @@ void Enemy::Generate_Enemy(SDL_Renderer* gRenderer,
 	else if (random_type_enemy == ENEMY_5)
 	{
 		if (posX + 45 <= 0) {
-			posX = rand() % (800 + 1) + 800;
+			posX = rand() % (SCREEN_WIDTH + 1) + SCREEN_WIDTH;
 			random_type_enemy = Random_Enemy();
 			posY = GROUND;
 		}

@@ -4,7 +4,8 @@
 #include "Dinosaur.h"
 #include "Enemy.h"
 
-static int time_run = 0;
+static int hight_score_n = 0;
+static int score = 0;
 
 bool CheckColission(Dinosaur dinosaur,
 	SDL_Rect* dinosaur_clip,
@@ -15,6 +16,14 @@ bool CheckColission(Dinosaur dinosaur,
 
 void update_time(int &time);
 
-int Random_Type_Enemy();
+void Draw_Score(TTF_Font* gFont,
+	SDL_Renderer* gRenderer);
+
+void Draw_Hight_Score(TTF_Font* gFont,
+	SDL_Renderer* gRenderer);
+
+void Update_hight_score();
+
+void reset_score();
 
 #endif

@@ -74,7 +74,3 @@ void Button::handleEvent(SDL_Event* e)
 	}
 }
 
-//void Button::render()
-//{
-//	Render(int x, int y, SDL_Renderer * gRenderer = NULL, SDL_Rect * clip = nullptr);
-//}
